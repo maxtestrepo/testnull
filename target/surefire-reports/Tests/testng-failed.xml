@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="gfdg.gfdgt.tt.SampleTestNgTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testHomePageHasAHeader"/>
+          <include name="initWebDriverFactory"/>
+        </methods>
+      </class> <!-- gfdg.gfdgt.tt.SampleTestNgTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Tests] -->
